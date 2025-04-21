@@ -1,266 +1,270 @@
 /* CSS Document for 'Cycle Up' Event Invite*/
-
+    
 /* Basic reset for elements*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    font-size: 20px;
-    font-family: "Garamond", serif;
-    background-image: url("https://cdn.pixabay.com/photo/2013/02/21/19/12/lumber-84678_1280.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: rgb(224, 224, 224);
-    line-height: 1.6;
-    padding: 20px;
+font-size: 20px;
+font-family: "Garamond", serif;
+background-image: url("https://cdn.pixabay.com/photo/2013/02/21/19/12/lumber-84678_1280.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: rgb(224, 224, 224);
+line-height: 1.6;
+padding: 20px;
 }
 
 
 header {
-    text-align: center;
-    background-image: url('https://cdn.pixabay.com/photo/2024/12/08/17/42/tool-9253437_1280.jpg');
-    background-size: cover;
-    background-position: center;
-    color: rgb(72, 30, 30);
-    padding: 30px 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+text-align: center;
+background-image: url('https://cdn.pixabay.com/photo/2024/12/08/17/42/tool-9253437_1280.jpg');
+background-size: cover;
+background-position: center;
+color: rgb(72, 30, 30);
+padding: 30px 20px;
+border-radius: 10px;
+margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Lucida Handwriting', sans-serif;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Lucida Handwriting', sans-serif;
 }
 
 header h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-family: "Garamond", serif;
-    color: rgba(9, 53, 157, 0.629);
+font-size: 40px;
+margin-bottom: 10px;
+font-weight: bold;
+font-family: "Garamond", serif;
+color: rgba(9, 53, 157, 0.629);
 }
 
 h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    position: relative;
-    font-weight: lighter;
-    font-family: "Garamond", serif;
+font-size: 32px;
+margin-bottom: 10px;
+position: relative;
+font-weight:lighter;
+font-family: "Garamond", serif;
 }
 
 img {
-    border-radius: 8px;
-    border: rgb(193, 208, 60);
-    border-style: dashed;
-    border-width: thick;
+border-radius: 8px;
+border:rgb(193, 208, 60); 
+border-style: dashed; 
+border-width: thick;
 }
 
 .info {
-    background: rgba(21, 5, 1, 0.547);
-    padding: 20px;
-    margin: 15px auto;
-    border-radius: 8px;
-    max-width: 800px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+background: rgba(21, 5, 1, 0.547);
+padding: 20px;
+margin: 15px auto;
+border-radius: 8px;
+max-width: 800px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .info h2 {
-    color: rgb(28, 204, 235);
-    margin-bottom: 10px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 8px;
-    background-color: rgba(21, 5, 1, 0.547);
+color: rgb(28, 204, 235);
+margin-bottom: 10px;
+font-weight: bold;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 8px; 
+background-color: rgba(21, 5, 1, 0.547);
 }
 
 .info p,
 .info ul,
 .info ul li {
-    color: rgb(224, 224, 224);
+color: rgb(224, 224, 224);
 }
 
 
 .info a {
-    color: rgb(28, 204, 235);
-    text-decoration: none;
+color: rgb(28, 204, 235);
+text-decoration: none;
 }
 
 .info a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .rsvp {
-    background: rgba(21, 5, 1, 0.547);
-    padding: 20px;
-    margin: auto;
-    border-radius: 8px;
-    max-width: 400px;
+background: rgba(21, 5, 1, 0.547);
+padding: 20px;
+margin: auto;
+border-radius: 8px;
+max-width: 400px;
 }
 
 .rsvp h2 {
-    color: rgb(28, 204, 235);
-    font-weight: bold;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    background-color: rgba(21, 5, 1, 0.547);
+color :rgb(28, 204, 235);
+font-weight: bold;
+margin-bottom: 10px;
+border-radius: 8px; 
+background-color: rgba(21, 5, 1, 0.547);
 }
 
+#save { background-color: rgba(21, 5, 1, 0.547);}
+
 .deets {
-    color: rgb(72, 30, 30);
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 40px;
-    left: 20px;
+color:  rgb(72, 30, 30);
+font-size: 20px;
+font-weight:bold;
+margin-top: 40px;
+left: 20px;
 }
 
 #up {
-    color: rgb(28, 204, 235);
-    background-color: rgba(72, 30, 30, 0.91);
-    font-size: 100px;
-    border-radius: 8px;
-    font-family: 'Copperplate Gothic Light', sans-serif;
-    padding: 10px;
+color: rgb(28, 204, 235);
+background-color: rgba(72, 30, 30, 0.91);
+font-size: 100px;
+border-radius: 8px; 
+font-family: 'Copperplate Gothic Light', sans-serif;
+padding: 10px;
 }
 
-#about {
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 8px;
-    background-color: rgba(188, 143, 143, 0.837);
+#about {  
+font-weight: bold; 
+color: rgbrgb(11, 129, 188);
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 8px; 
+background-color: rgba(188, 143, 143, 0.486); 
+} 
+
+.see { 
+color: tomato;
+font-size: 20px;
+font-weight: bold;
 }
 
-#see {
-
-    color: rgb(235, 208, 28);
-    font-size: 20px;
-    font-weight: bold;
+.look {
+color: rgb(137, 15, 186);
+font-size: 20px;
+font-weight: bold;
 }
-
 
 #details {
-    list-style: none;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background-color: rgba(188, 143, 143, 0.837);
+list-style: none;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 8px; 
+background-color: rgba(188, 143, 143, 0.837);
 }
 
-#wow {
-    width: 30%;
-    max-width: 300px;
+.wow { 
+width: 230px; 
+max-width: 300px;
 }
 
-#bring {
-    float: left;
-    width: 40%;
-    margin: 20px 0 20px 10px;
-    padding: 10px;
-    font-size: 20px;
-    font-family: "Garamond", serif;
-    color: rgb(72, 30, 30);
-    text-align: center;
-    border-radius: 8px;
-    background-color: rgba(188, 143, 143, 0.837);
+#bring { 
+float: left; 
+width: 40%; 
+margin: 20px 0 20px 10px ; 
+padding: 10px;
+font-size: 20px;
+font-family: "Garamond", serif;
+color: rgb(72, 30, 30);
+text-align: center;
+border-radius: 8px; 
+background-color: rgba(188, 143, 143, 0.837);
 }
 
-#refuel {
-    font-size: 20px;
-    font-family: "Garamond", serif;
-    color: rgb(72, 30, 30);
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: rgba(188, 143, 143, 0.837);
+#refuel { 
+font-size: 20px;
+font-family: "Garamond", serif;
+color: rgb(72, 30, 30);
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 10px;
+border-radius: 8px; 
+background-color: rgba(188, 143, 143, 0.837);
 }
 
-#items {
-    width: 40%;
-    border-radius: 8px;
-    margin-top: 20px;
-    margin-left: 50px;
+.items {
+width:305px;
+border-radius: 8px;
+margin-top: 20px; 
+margin-left: 50px;
 }
 
-#renew {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Garamond", serif;
-    color: rgb(72, 30, 30);
-    text-align: center;
-    margin-left: 50px;
-    border-radius: 8px;
-    background-color: rgba(188, 143, 143, 0.837);
+#renew { font-size: 25px;
+font-weight: bold;
+font-family: "Garamond", serif;
+color: rgb(72, 30, 30);
+text-align: center;
+margin-left: 50px;
+border-radius: 8px; 
+background-color: rgba(188, 143, 143, 0.837);
 }
 
-#new {
-    color: rgb(235, 208, 28);
-}
+.new { color: rgb(235, 208, 28);}
 
 #button-text {
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(72, 30, 30);
+font-size: 15px;
+font-weight: bold;
+color: rgb(72, 30, 30);
 }
 
-#links {
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-top: 20px;
-    display: flex;
-    max-width: 400px;
+#links { 
+padding-left: 30px;
+padding-right:10px;
+padding-top: 20px;
+display: flex;
+max-width: 400px;
 }
 
 
 form {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 form label {
-    margin-top: 10px;
-    font-weight: bold;
+margin-top: 10px;
+font-weight: bold;
 }
 
 form input,
 form textarea {
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid rgb(235, 208, 28);
-    border-width: 2px;
-    border-radius: 5px;
-    background: rgb(44, 44, 44);
-    color: rgb(224, 224, 224);
+padding: 8px;
+margin-top: 5px;
+border: 1px solid rgb(235, 208, 28);
+border-width: 2px; 
+border-radius: 5px;
+background: rgb(44, 44, 44);
+color: rgb(224, 224, 224);
 }
 
 form button {
-    margin-top: 20px;
-    padding: 10px;
-    background: rgb(235, 208, 28);
-    color: rgb(28, 204, 235);
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+margin-top: 20px;
+padding: 10px;
+background: rgb(235, 208, 28);
+color: rgb(28, 204, 235);
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
 }
 
 form button:hover {
-    background: rgb(235, 208, 28);
+background:rgb(235, 208, 28);
 }
 
 footer {
-    background: rgba(28, 204, 235, 0.651);
-    text-align: center;
-    font-size: 15px;
-    color: rgb(72, 30, 30);
-    margin-top: 40px;
-    padding: 10px;
-    border-top: 1px solid rgb(51, 51, 51);
+background: rgba(28, 204, 235, 0.651);
+text-align: center;
+font-size:  15px;
+color:  rgb(72, 30, 30);
+margin-top: 40px;
+padding: 10px;
+border-top: 1px solid rgb(51, 51, 51);
 }
